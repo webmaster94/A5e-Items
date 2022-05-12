@@ -1,14 +1,24 @@
 {   
-   "name": "a5e_data",   
-   "title": "A5e Data",   
-   "description": "Imports all a5e data as a compedium.",   
-   "author": "Gage Eakins",
-   "version": "1.0.0",
-   "minimumCoreVersion": "0.8.0",
-   "compatibleCoreVersion":"9",
-   "dependencies": [
-    {
-    "name": "compendium-folders", "type": "module"
+	"name": "a5e_data",   
+	"title": "A5e Data",   
+	"description": "Imports all a5e data as a compedium.",   
+	"author": "Gage Eakins",
+	"version": "1.0.0",
+	"minimumCoreVersion": "0.8.0",
+	"compatibleCoreVersion":"9",
+	"dependencies": [
+	{
+	"name": "compendium-folders", "type": "module"
+	}
+	],
+	"packs": [
+	{
+		"name": "a5e_items",
+		"label": "A5e Items",
+		"path": "packs/a5e_items.db",
+		"entity": "Item",
+		"system": "dnd5e",
+		"module": "a5e_data"
     }
 	],
 	"url": "https://github.com/webmaster94/A5e-Items",
