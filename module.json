@@ -1,16 +1,27 @@
 {   
-	"name": "a5e_data",   
+	"id": "a5e_data",   
 	"title": "A5e Data",   
 	"description": "Imports all a5e data as a compedium.",   
-	"author": "Gage Eakins",
-	"version": "1.0.0",
-	"minimumCoreVersion": "0.8.0",
-	"compatibleCoreVersion":"9",
-	"dependencies": [
+	"authors": [
 	{
-	"name": "compendium-folders", "type": "module"
-	}
+		"name": "Gage Eakins",
+		"url": "https://github.com/webmaster94"
+	} 
 	],
+	"version": "1.0.0",
+	"compatibility": {
+		"minimum": "0.8.9",
+		"verified": 10
+	},
+	"relationships": {
+		"requires": [
+		{
+			"id": "compendium-folders",
+			"type": "Module",
+			"manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/10x-update/module.json"
+		}
+		]
+	},
 	"packs": [
 	{
 		"name": "a5e_items",
