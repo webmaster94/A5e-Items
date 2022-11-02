@@ -17,7 +17,7 @@
 		"requires": [
 		{
 			"id": "compendium-folders",
-			"type": "Module",
+			"type": "module",
 			"manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/10x-update/module.json"
 		}
 		]
@@ -27,7 +27,7 @@
 		"name": "a5e_items",
 		"label": "A5e Items",
 		"path": "packs/a5e_items.db",
-		"entity": "Item",
+		"type": "Item",
 		"system": "dnd5e",
 		"module": "a5e_data"
     }
